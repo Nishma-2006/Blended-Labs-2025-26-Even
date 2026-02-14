@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: NISHMA SHERIN .K
+* **Register Number**: 212224240104
+* **Date of Submission**:14.02.2026
 
 ---
 
@@ -87,31 +87,43 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+```
+1.logged into AWS and opened the VPC service.
+created a new VPC with CIDR 10.0.0.0/16.
 
----
+2. created a public subnet inside the VPC.
+ enabled auto-assign public IP for the subnet.
+
+3. created an Internet Gateway and attached it to the VPC.
+ added a route (0.0.0.0/0) in the route table.
+
+4. created a Security Group for the EC2 instance.
+allowed SSH (22) and HTTP (80).
+
+5. launched an EC2 instance in the public subnet.
+installed Apache and accessed the website using the public IP.
+```
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: VPC and Subnet Details
 
 (Insert Screenshot Here)
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/df377577-2c89-461d-be4a-e96ea104d49d" />
 
 ---
 
 ### Screenshot 2: EC2 Instance Running
 
 (Insert Screenshot Here)
+<img width="1600" height="891" alt="image" src="https://github.com/user-attachments/assets/fbdd6246-1467-4ed2-9ab4-0607bcb59eb2" />
 
 ---
 
 ### Screenshot 3: Web Server Output in Browser
 
 (Insert Screenshot Here)
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/fded2bb0-33f5-433d-85ea-ae924a4f16cd" />
 
 ---
 
